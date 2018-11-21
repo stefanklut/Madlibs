@@ -26,7 +26,7 @@ public class StoryAdapter extends ArrayAdapter<StoryInfo> {
         // Variables for the views in the convert view
         TextView name = convertView.findViewById(R.id.textViewName);
 
-        // Depending on the position set the name and avatar to the friend
+        // Depending on the position set the name of the story
         StoryInfo storyInfo = stories.get(position);
         name.setText(storyInfo.getName());
 

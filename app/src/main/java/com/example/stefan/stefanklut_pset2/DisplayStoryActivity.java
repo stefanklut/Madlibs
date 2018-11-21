@@ -18,11 +18,13 @@ public class DisplayStoryActivity extends AppCompatActivity {
         Intent intent = getIntent();
         Story retrievedStory = (Story) intent.getSerializableExtra("madlib story");
 
+        // Display the story to the user in Html mode
         TextView storyDisplay = findViewById(R.id.textViewStoryDisplay);
         storyDisplay.setText(Html.fromHtml(retrievedStory.toString(), Html.FROM_HTML_MODE_LEGACY));
     }
 
     public void newStory(View view) {
+        // Go to the story selection screen while clearing the activities in-between
         Intent intent = new Intent(DisplayStoryActivity.this, StorySelectorActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
@@ -30,6 +32,7 @@ public class DisplayStoryActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+        // Go to the story selection screen while clearing the activities in-between
         Intent intent = new Intent(DisplayStoryActivity.this, StorySelectorActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);

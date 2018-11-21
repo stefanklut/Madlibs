@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startMadlib(View view) {
-        // Open new activity
+        // Open new activity where the story can be selected
         Intent intent = new Intent(MainActivity.this, StorySelectorActivity.class);
         startActivity(intent);
     }
