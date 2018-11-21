@@ -1,4 +1,4 @@
-# stefanklutpset2: Madlibs
+# Madlibs
 
 ## Author info
 **Name:** Stefan Klut <br>
