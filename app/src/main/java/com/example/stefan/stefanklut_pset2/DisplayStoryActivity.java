@@ -24,7 +24,7 @@ public class DisplayStoryActivity extends AppCompatActivity {
     }
 
     public void newStory(View view) {
-        // Go to the story selection screen while clearing the activities in-between
+        // Go to the story selection activity and clear all the activities in-between
         Intent intent = new Intent(DisplayStoryActivity.this, StorySelectorActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
@@ -32,7 +32,7 @@ public class DisplayStoryActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        // Go to the story selection screen while clearing the activities in-between
+        // Go to the story selection activity and clear all the activities in-between
         Intent intent = new Intent(DisplayStoryActivity.this, StorySelectorActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
