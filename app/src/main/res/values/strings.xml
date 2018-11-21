@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">stefanklut-pset2</string>
+    <string name="madlib_description">Welcome to Madlibs! The game were you write your own story.
+    This app will ask for words to fill in a story. Try to be creative!</string>
 </resources>
