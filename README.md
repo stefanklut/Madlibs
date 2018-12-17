@@ -16,16 +16,16 @@ so that you can play another game of Madlibs!
 ## Screenshots
 
 ### Opening Screen:
-<img src="doc/Screenshot_20181121-131346.png" width="50%">
+<img src="doc/Screenshot_20181121-131346.png" width="30%">
 
 ### Story selection screen:
-<img src="doc/Screenshot_20181121-131401.png" width="50%">
+<img src="doc/Screenshot_20181121-131401.png" width="30%">
 
 ### Input for words:
-<img src="doc/Screenshot_20181121-131418.png" width="50%">
+<img src="doc/Screenshot_20181121-131418.png" width="30%">
 
 ### Displayed Story:
-<img src="doc/Screenshot_20181121-131707.png" width="50%">
+<img src="doc/Screenshot_20181121-131707.png" width="30%">
 
 ### Landscape mode:
-<img src="doc/Screenshot_20181121-131425.png" width="100%">
+<img src="doc/Screenshot_20181121-131425.png" width="60%">
